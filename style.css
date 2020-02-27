@@ -101,7 +101,7 @@ body{
 	background-color: #523468;
 }
 .dropdown:hover .dropbtn {
-	background-color: purple;
+	background-color: #422a53;
 }
 .dropdown .dropbtn {
   font-size: 22px;
@@ -144,4 +144,26 @@ body{
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+.section-primary-navbar-login{
+	float: right;
+	padding-right: 60px;
+}
+.section-primary-navbar-login a{
+	font-size: 20px;
+	color: black;
+}
+.section-primary-navbar-login button{
+	font-size: 22px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #523468;
+    padding: 22px;
+    font-family: 'Droid Serif', Times New Roman;
+    margin: 0;
+    font-style: italic;
+}
+.section-primary-navbar-login :hover{
+	background-color: #422a53;
 }
