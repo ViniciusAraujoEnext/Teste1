@@ -230,7 +230,7 @@ footer{
 }
 .direitos-reservados{
 	color: #958e86;
-    font-size: 20px;
+    font-size: 18px;
     font-family: none;
     display: inline-block;
     padding: 40px 0px 0px 90px;
@@ -268,6 +268,6 @@ footer{
 .footer-right{
 	background-color: white;
 	display: inline-block;
-	width: 40%;
+	padding: 10px;
 	border-radius: 10px;
 }
