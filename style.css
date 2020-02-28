@@ -6,9 +6,12 @@
 
 html {
 	scroll-behavior: smooth;
+	height: 100%;
+    min-height: 100%
 }
 body{
 	font-family: 'Droid Serif', Times New Roman;
+    min-height: 100%;
 }
 .section-primary{
 
@@ -164,7 +167,6 @@ b{
 	background-color: #422a53;
 }
 .section-second{
-
 }
 .potion-text-top h1{
 	font-family: 'Droid Serif', Times New Roman;
@@ -174,6 +176,7 @@ b{
 }
 .potions{
 	width: 100%;
+
 }
 .potion{
 	width: 70%;
@@ -193,16 +196,58 @@ b{
 	position: relative;
 	text-align: center;
 	margin: 5px;
+	font-family: 'Droid Serif', Times New Roman;
 }
-.divisoria{
-	height: 50px;
-	width: 100%;
+.potion-position h3{
+	font-family: 'Droid Serif', Times New Roman;
+	font-size: 22px;
 }
 .section-third{
 	margin-top: 100px;
 }
 footer{
 	width: 100%;
-	height: 400px;
+	height: 450px;
 	background-color: #e6e6e6;
+	min-height: 100%;
+    display: inline-block;
+    margin-top: 100px;
+}
+.footer-buttons{
+	padding: 60px 0px 0px 60px;
+}
+.footer-buttons :hover{
+	color: grey;
+}
+.footer-buttons a{
+	font-size: 25px;
+	color: red;
+	text-decoration: none;
+	padding: 0px 30px 0px 30px;
+}
+.social-midia{
+	padding: 40px 0px 0px 70px;
+}
+.direitos-reservados{
+	color: #958e86;
+    font-size: 20px;
+    font-family: none;
+    display: inline-block;
+    padding: 40px 0px 0px 90px;
+}
+.footer-left{
+	width: 50%;
+    display: inline-block;
+}
+.text-email{
+	display: inline-block;
+    float: right;
+    line-height: 3;
+    font-size: 25px;
+    width: 40%;
+    padding: 75px 0px 0px 0px;
+    font-family: arial;
+}
+.enteryouremail{
+	display: inline-block;
 }
