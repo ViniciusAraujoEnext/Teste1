@@ -16,42 +16,42 @@ body{
 .section-primary{
 
 }
-.logo{
+.header-logo{
 	padding: 40px;
 	display: inline-block;
 }
-.logo img{
+.header-logo img{
 	width: 300px;
 
 }
-.section-primary-procurar{
+.header-search{
 	display: inline-block;
     width: 34%;
 }
 
-.section-primary-procurar input[type=text] {
+.header-search input[type=text] {
     float: right;
     padding: 14px 0px;
     border: 1px solid;
     border-radius: 10px;
     font-size: 25px;
-    background-image: url(./img/lupa.png);
+    background-image: url(../images/icons/search.png);
     background-position: 10px;
     background-size: 35px;
     background-repeat: no-repeat;
     padding-left: 65px;
 }
-.carrinho{
+.header-cart{
     display: inline-block;
     margin-top: 50px;
     float: right;
     margin-right: 35px;
 }
-.carrinho img{
+.header-cart img{
 	display: inline-block;
 	margin-right: 30px;
 }
-.carrinho-texto{
+.header-cart-shipping{
 	float: left;
     margin-right: 35px;
     font-style: italic;
@@ -61,25 +61,25 @@ b{
 	color: red;
 }
 
-.carrinho h1{
+.header-cart h1{
 	color: grey;
     font-size: 28px;
     margin-top: 15px;
     display: inline-block;
     float: right;
 }
-.carrinho h2{
+.header-cart h2{
 	font-size: 20px;
 	color: red;
 	font-family: 'Droid Serif', Times New Roman;
 }
-.carrinho h3{
+.header-cart h3{
 	font-size: 25px;
 	color: red;
 	font-family: 'Droid Serif', Times New Roman;
 }
 
-.section-primary-procurar input[type=text] {
+.header-search input[type=text] {
     border: 1px solid #ccc;
   
 }
@@ -175,7 +175,7 @@ b{
 	padding: 50px 50px;
 
 }
-.potions{
+.produtos{
 	width: 100%;
 
 }
@@ -190,7 +190,7 @@ b{
 	width: 33%;
 	text-align: center;
 }
-.potion-position{
+.produtos-potions{
 	width: 32%;
 	height: 33%;
 	float: left;
@@ -199,7 +199,7 @@ b{
 	margin: 5px;
 	font-family: 'Droid Serif', Times New Roman;
 }
-.potion-position h3{
+.produtos-potions h3{
 	font-family: 'Droid Serif', Times New Roman;
 	font-size: 22px;
 }
