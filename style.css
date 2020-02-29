@@ -26,8 +26,7 @@ body{
 }
 .section-primary-procurar{
 	display: inline-block;
-	padding-left: 80px;
-
+    width: 34%;
 }
 
 .section-primary-procurar input[type=text] {
@@ -43,9 +42,10 @@ body{
     padding-left: 65px;
 }
 .carrinho{
-	display: inline-block;
+    display: inline-block;
     margin-top: 50px;
-    margin-left: 100px;
+    float: right;
+    margin-right: 35px;
 }
 .carrinho img{
 	display: inline-block;
@@ -53,8 +53,9 @@ body{
 }
 .carrinho-texto{
 	float: left;
-	margin-right: 35px;
-	font-style: italic;
+    margin-right: 35px;
+    font-style: italic;
+    display: inline-block;
 }
 b{
 	color: red;
@@ -62,10 +63,10 @@ b{
 
 .carrinho h1{
 	color: grey;
-	font-size: 28px;
-	display: inline-block;
-	float: right;
-	margin-top: 20px;
+    font-size: 28px;
+    margin-top: 15px;
+    display: inline-block;
+    float: right;
 }
 .carrinho h2{
 	font-size: 20px;
