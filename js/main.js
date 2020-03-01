@@ -58,6 +58,7 @@ function closeLightBox(){
     lightBox.style.display = 'none';
 }
 
+
 function mobile(data){
     var lightBox = document.querySelector('.mobile');
     mobile.style.display = 'block';

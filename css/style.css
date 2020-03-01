@@ -290,7 +290,7 @@ footer{
   top: 50%;
   transform: translate(-50%, -50%);
   background: white;
-  width: 80vw;
+  width: 70vw;
   height: 70vh;
   z-index: 1;
 }
@@ -310,6 +310,7 @@ footer{
   display: inline-block;
   width: 50%;
   float: right;
+  line-height: 2;
 }
 
 .lightbox-image {
@@ -319,8 +320,15 @@ footer{
 }
 
 .lightbox-image img{
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
+  margin: 80px 10px 80px 10px;
 }
 
-
+.lightbox-details button{
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
