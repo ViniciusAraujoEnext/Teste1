@@ -1,0 +1,12 @@
+@media screen and (min-width: 500px){
+
+	.shipping{
+		display: none;
+	}
+	.cart .shipping{
+		display: block;
+	}
+	.mobile{
+		display: none;
+	}
+}
