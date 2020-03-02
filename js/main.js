@@ -58,10 +58,10 @@ function closeLightBox(){
     lightBox.style.display = 'none';
 }
 
+function openmenumobile(){
+    document.querySelector('.menu-mobile').classList.add('active')
+}
 
-function mobile(data){
-    var lightBox = document.querySelector('.mobile');
-    mobile.style.display = 'block';
-
-    lightBox.querySelector('.lightbox-details-name').innerHTML;
+function closemenumobile(){
+    document.querySelector('.menu-mobile').classList.remove('active')
 }

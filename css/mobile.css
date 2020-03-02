@@ -40,12 +40,29 @@
 		margin: 0;
 	}
 
-	.mobile {
+	.menu-mobile {
 		width: 20%;
 		float: left;
 	}
+	.menu-mobile .menu .top{
+		padding: 20px 10px;
+	}
 
-	.mobile button {
+	.menu-mobile.active .menu{
+		display: block;
+	}
+	.menu-mobile .menu{
+		display: none;
+		background: white;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		z-index: 10;
+	}
+
+	.menu-mobile .btn-open {
 		background-image: url(../images/icons/menu-mobile.png);
 		background-color: transparent;
 		border-style: none;
@@ -55,6 +72,45 @@
 		background-repeat: no-repeat;
 	}
 
+	.menu-mobile .btn-close {
+		background-image: url(../images/icons/menu-mobile-active.png);
+		background-color: transparent;
+		border-style: none;
+		width: 35px;
+		height: 40px;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	.menu-mobile .menu .bottom ul{
+		background-color: #523468;
+
+	}
+	.menu-mobile .menu .bottom li{
+		padding: 10px 10px;
+		color: white;
+		font-family: 'Droid Serif', Times New Roman;
+		font-style: italic;
+		background-color: #523468;
+		list-style: none;
+		border: thin solid rgba(255,255,255,0.3)
+	}
+
+	.menu-mobile .search{
+		display: inline-block;
+		float: right;
+	}
+	.search input[type=text] {
+    float: right;
+    padding: 10px 0px;
+    border: 1px solid;
+    border-radius: 10px;
+    font-size: 16px;
+    background-image: url(../images/icons/search.png);
+    background-position: 10px;
+    background-size: 35px;
+    background-repeat: no-repeat;
+    padding-left: 65px;
+	}
 	.section-primary-navbar {
 		display: none;
 	}
@@ -65,89 +121,110 @@
 		padding: 55px 50px 0px 50px;
 		text-align: center;
 	}
-	.produtos-potions {
-    width: 46%;
-    height: 33%;
-    float: left;
-    position: relative;
-    text-align: center;
-    margin: 5px;
-    font-family: 'Droid Serif', Times New Roman;
 
+	.produtos-potions {
+		width: 46%;
+		height: 33%;
+		float: left;
+		position: relative;
+		text-align: center;
+		margin: 5px;
+		font-family: 'Droid Serif', Times New Roman;
 	}
+
 	.potion {
-    width: 100%;
-    height: 33%;
-    display: inline-block;
-    padding: 50px 0px 0px 0px;
+		width: 100%;
+		height: 33%;
+		display: inline-block;
+		padding: 50px 0px 0px 0px;
 	}
+
 	.social-midia {
-    padding: 10px 0px 0px 0px;
- 	display: flex;
-    margin-left: -10px;
+		padding: 10px 0px 0px 0px;
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 25px;
 	}
+
+	.social-midia svg {
+		width: 60px;
+		height: 35px;
+	}
+
 	.footer-left {
-    width: 100%;
+		width: 100%;
 	}
-    .footer-right {
-    width: 100%;
+
+	.footer-right {
+		width: 100%;
 	}
-    .footer-buttons{
-    	display: none;
-    }
-    .direitos-reservados{
-    color: #958e86;
-    padding: 0;
-    font-size: 16px;
+
+	.footer-buttons {
+		display: none;
 	}
+
+	.direitos-reservados {
+		color: #958e86;
+		padding: 0;
+		font-size: 16px;
+		margin-top: 50px;
+	}
+
 	.text-email {
-    line-height: 3;
-    font-size: 15px;
-    font-family: roboto;
-    font-weight: lighter;
-    padding: 25px;
+		line-height: 3;
+		font-size: 13px;
+		font-family: roboto;
+		font-weight: lighter;
+		padding: 25px;
 	}
+
 	.inputemail {
-    display: inline-block;
-    border-radius: 3px;
-    padding: 5px 0px;
-    font-size: 15px;
-    border: 1px solid;
+		display: inline-block;
+		border-radius: 3px;
+		padding: 5px 0px;
+		font-size: 12px;
+		border: 1px solid;
 	}
+
 	.enteryouremail button {
-    background-color: red;
-    font-size: 20px;
-    border-radius: 10px;
-    padding: 0px 10px;
-    margin: 5px;
+		background-color: #C7472D;
+		font-size: 15px;
+		border-radius: 10px;
+		padding: 0px 10px;
+		margin: 5px;
 	}
+
 	footer {
-    width: 100%;
-    height: 520px;
-    background-color: #e6e6e6;
-    min-height: 100%;
-    display: inline-block;
+		width: 100%;
+		height: 390px;
+		background-color: #e6e6e6;
+		min-height: 100%;
+		display: inline-block;
+		margin: 0;
 	}
+
 	.lightbox-box {
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    background: white;
-    width: 95vw;
-    height: 90vh;
-    z-index: 1;
+		position: fixed;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		background: white;
+		width: 95vw;
+		height: 90vh;
+		z-index: 1;
 	}
+
 	.lightbox-image img {
-    width: 225px;
-    height: 225px;
-    margin: 150px 10px 80px -40px;
+		width: 225px;
+		height: 225px;
+		margin: 150px 10px 80px -40px;
 	}
+
 	.lightbox-details {
-    display: inline-block;
-    width: 50%;
-    float: right;
-    line-height: 2;
+		display: inline-block;
+		width: 50%;
+		float: right;
+		line-height: 2;
 	}
 
 }

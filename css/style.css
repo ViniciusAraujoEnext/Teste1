@@ -240,41 +240,42 @@ footer{
 }
 .footer-left{
   width: 57%;
-    display: inline-block;
+  display: inline-block;
 }
 .text-email {
     display: inline-block;
     float: right;
-    line-height: 3;
-    font-size: 25px;
+    line-height: 2;
+    font-size: 16px;
     font-family: roboto;
     font-weight: lighter;
     background-color: white;
     margin-top: 60px;
-    border-radius: 20px;
+    border-radius: 5px;
     padding: 15px;
 }
 .inputemail{
-  display: inline-block;
-  border-radius: 10px;
-  padding: 8px 15px;
-  font-size: 25px;
-  border: 1px solid;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 16px;
+    border: 1px solid;
 }
 .enteryouremail button{
-  background-color: red;
-    font-size: 25px;
-    border-radius: 10px;
+    background-color: #C7472D;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
     padding: 8px 20px;
     margin: 15px;
+    color: white;
 }
 .enteryouremail{
   display: inline-block;
  
 }
 .footer-right{
-  background-color: white;
-
+  float: right;
   padding: 10px;
   border-radius: 10px;
 }
@@ -326,9 +327,17 @@ footer{
 }
 
 .lightbox-details button{
-    background-color: red;
+    background-color: #C7472D;
     padding: 10px;
     border-radius: 10px;
     color: white;
     font-size: 15px;
+}
+.social-midia svg {
+    fill: #523468;
+    width: 80px;
+    height: 40px;
+}
+.social-midia li {
+    display: inline-block;
 }
